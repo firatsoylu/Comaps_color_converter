@@ -29,6 +29,10 @@ CoMaps supports KML/GPX color codes when they are nested in a specific, non-stan
 
 This immediately assigns a custom color to the pin when the file is imported into the app.
 
+The images below show the default waypoint view in Comaps vs. the color coded version.
+
+![Comaps original](images/comaps_original.webp) ![Comaps colorcoded](images/comaps_color_coded.webp)
+
 ## Default Keyword-to-Color Mapping
 
 The following rules are used by the script to assign color codes. You can customize the `COLOR_MAP` dictionary inside the `gpx_colorizer.py` file to suit your preferences.
